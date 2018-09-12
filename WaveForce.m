@@ -37,19 +37,3 @@ x_w = x_w_last + x_w_dot*h;
 
 y_w = [0 1] * x_w;
 
-
-%%
-% Spectra = 'Tor';
-% %% Torsethaugen spectra
-% if strcmp(Spectra, 'Tor')
-% 	if w0 == 1.4
-% 		lambda = 0.1108;
-% 		sigma  = 0.9932;
-% 	elseif w0 == 1.1
-% 		lambda = 0.1643;
-% 		sigma  = 1.0808;
-% 	elseif w0 == 0.8;
-% 		lambda = 0.1850;
-% 		sigma  = 1.3279;
-% 	end
-% end
